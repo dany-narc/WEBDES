@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#wrapper-div{
+    width: 80%;
+    margin: auto    ;
+    background-color: rgb(70, 83, 98);
+}
+
+#logo-div{
+    width:100%;
+    min-height: 50px;
+    background-color: rgb(2, 46, 100);
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#nav-div{
+    width:100%;
+    min-height: 30px;
+    background-color: rgb(2, 46, 100);
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#headerbanner-div{
+    width:100%;
+    min-height: 100px;
+    background-color: rgb(176, 208, 211);
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#main-div{
+    width:100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+}
+
+#sidebar-div{
+    background-color: rgb(176, 208, 211);
+    width:20%;
+    min-height: 400px;
+    line-height: 300px;
+    float: left;
+    text-align: center;
+
+}
+
+#bodyarea-div{
+    background-color: rgb(176, 208, 211);
+    width:75%;
+    min-height: 400px;
+    line-height: 400px;
+    float: right;
+    text-align: center;
+
+}
+
+#footer-div{
+    width:100%;
+    min-height: 50px;
+    background-color: rgb(176, 208, 211);
+    line-height: 30px;
+    text-align: center;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #286297;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #fdf1f1;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #9dbedd;
+    color: white;
+  }
